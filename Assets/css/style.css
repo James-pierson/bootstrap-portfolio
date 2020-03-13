@@ -1,23 +1,75 @@
 html, body {
-    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
 }
 
+/* Establishes the margin for the about-me*/
 #about-me {
     margin-left: 45px;
 }
 
+/* Sets the background color for the navbar*/
 .navbar-brand {
     background-color: lightblue;
     padding: 20px;
     margin: 0;
 }
 
+/* Setting up the image */
+.img-thumbnail {
+    width: auto;
+    height: 400px;
+}
+
+
+/* Adjusting the card css*/
+.card {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.card-text {
+    text-align: center;
+    
+}
+
+img {
+    height: 140px;
+    width: 140px;
+}
+
+/* Adjusting the margins of the contact form*/
+#container-margins {
+    margin-top: 30px;
+}
+
+/* Footer that spans across all .html files */
 .footer {
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 60px;
     line-height:  60px;
     text-align: center;
+    margin-top: 10px;
     background-color: grey;
 }
+
+#footer-style {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+}
+
+
+@media only screen and (max-width: 640) {
+    /* Adjusts the container margins to make it more responsive*/
+    
+    #container-margins {
+        margin-left: 10px;
+    }
+}
+
